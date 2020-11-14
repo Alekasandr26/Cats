@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Полосатые</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+   
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+        <a class="scroll_to_top" title="Наверх">
+            <picture><source srcset="img/up.svg" type="image/webp"><img src="img/up.svg" alt=""></picture>
+        </a>
+
+        <header class="header">
+            <div class="header__desctop">
+                <div class="container">
+                    <div class="row">
+                        <div class="header__logo">
+
+                            
+                            <a href="/">
+                                <picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo"></picture>
+                            </a>
+                        </div>
+                        <div class="header__menu">
+                            <ul class="menu-list">
+                                <li class="menu-list__item">
+                                    <a class="menu-list__link" href="/">Main</a>
+                                </li>
+                                <li class="menu-list__item">
+                                    <a class="menu-list__link" href="/">Gallery</a>
+                                </li>
+                                <li class="menu-list__item">
+                                    <a class="menu-list__link" href="/">News</a>
+                                </li>
+                                <li class="menu-list__item">
+                                    <a class="menu-list__link" href="/">Profile</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header__phone">
+                            <a class="header__phone__link" href="tel:+544349000000">
+                                <div class="header__phone__number">+544 3490 00000</div>
+                                <p class="header__phone__text">Звони скорее!</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header__notification">Найдено 349 котов</div>
+                </div>
+            </div>
+            <div class="header__mobile">
+                <div class="header__mobile__top">
+                    <div class="header__mobile__logo">
+                        <a href="/">
+                            <picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo"></picture>
+                        </a>
+                    </div>
+                    <div class="btn-show-menu">
+                        <div class="menu-burger"></div>
+                    </div>
+                </div>
+                <div class="menu__mobile">
+                    <ul class="menu__mobile__list">
+                        <li class="menu__mobile__item">
+                            <a class="menu__mobile__link" href="/">Main</a>
+                        </li>
+                        <li class="menu__mobile__item">
+                            <a class="menu__mobile__link" href="/">Gallery</a>
+                        </li>
+                        <li class="menu__mobile__item">
+                            <a class="menu__mobile__link" href="/">News</a>
+                        </li>
+                        <li class="menu__mobile__item">
+                            <a class="menu__mobile__link" href="/">Profile</a>
+                        </li>
+                    </ul>
+                    <div class="menu__mobile__notification">Найдено 349 котов</div>
+                    <div class="header__mobile__phone">
+                        <a class="header__phone__link" href="tel:+544349000000">
+                            <div class="header__phone__number">+544 3490 00000</div>
+                            <p class="header__phone__text">Звони скорее!</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </header>
+
+        <section class="all-cats">
+            <div class="container">
+                <div class="all-cats__navigation button-group sort-by-button-group">
+                    <span class="all-cats__text">Сортировать по:</span> 
+                    <button class="all-cats__btn button" data-sort-value="price">Цене</button>
+                    <button class="all-cats__btn button" data-sort-value="age">Возроту</button>
+                </div>
+               
+                <div class="all-cats__container grid">
+                    <div class="all-cats__gutter"></div>
+                    <div class="all-cats__box grid-item">
+                        <div class="all-cats__box__img">
+                            <div class="discount"><span>-40%</span></div>
+                            <div class="hearts">
+                                <picture><source srcset="img/heart-white.webp" type="image/webp"><img class="white" src="img/heart-white.png" alt=""></picture>
+                                <picture><source srcset="img/heart-gray.webp" type="image/webp"><img class="gray" src="img/heart-gray.png" alt=""></picture>
+                            </div>
+                            <picture><source srcset="img/cat-1.webp" type="image/webp"><img src="img/cat-1.jpg" alt=""></picture>
+                        </div>
+                        <div class="all-cats__box__about-cat">
+                            <div class="cat-name">Кот полосатый</div>
+                            <div class="cat-data">
+                                <div class="color">Коричневый окрас</div>
+                                <div class="age">
+                                    6 мес
+                                    <div class="suptext">Восраст</div>
+                                </div>
+                                <div class="paws">
+                                    4
+                                    <div class="suptext">Кол-во лап</div>
+                                </div>
+                            </div>
+                            <div class="cat-price"><span class="price">30 000</span>руб.</div>
+                        </div>
+                        <div class="all-cats__box__btn">Купить</div>
+                        <div class="all-cats__box__btn-sold d-none">Продан</div>
+                    </div>
+                    <div class="all-cats__box grid-item">
+                        <div class="all-cats__box__img">
+                            <div class="discount d-none"><span>-40%</span></div>
+                            <div class="hearts">
+                                <picture><source srcset="img/heart-white.webp" type="image/webp"><img class="white" src="img/heart-white.png" alt=""></picture>
+                                <picture><source srcset="img/heart-gray.webp" type="image/webp"><img class="gray" src="img/heart-gray.png" alt=""></picture>
+                            </div>
+                            <picture><source srcset="img/cat-2.webp" type="image/webp"><img src="img/cat-2.jpg" alt=""></picture>
+                        </div>
+                        <div class="all-cats__box__about-cat">
+                            <div class="cat-name">Кот полосатый</div>
+                            <div class="cat-data">
+                                <div class="color">Коричневый окрас</div>
+                                <div class="age">
+                                    4 мес
+                                    <div class="suptext">Восраст</div>
+                                </div>
+                                <div class="paws">
+                                    4
+                                    <div class="suptext">Кол-во лап</div>
+                                </div>
+                            </div>
+                            <div class="cat-price"><span class="price">40 000</span> руб.</div>
+                        </div>
+                        <div class="all-cats__box__btn d-none">Купить</div>
+                        <div class="all-cats__box__btn-sold">Продан</div>
+                    </div>
+                    <div class="all-cats__box grid-item">
+                        <div class="all-cats__box__img">
+                            <div class="discount d-none"><span>-40%</span></div>
+                            <div class="hearts">
+                                <picture><source srcset="img/heart-white.webp" type="image/webp"><img class="white" src="img/heart-white.png" alt=""></picture>
+                                <picture><source srcset="img/heart-gray.webp" type="image/webp"><img class="gray" src="img/heart-gray.png" alt=""></picture>
+                            </div>
+                            <picture><source srcset="img/cat-3.webp" type="image/webp"><img src="img/cat-3.jpg" alt=""></picture>
+                        </div>
+                        <div class="all-cats__box__about-cat">
+                            <div class="cat-name">Кот полосатый</div>
+                            <div class="cat-data">
+                                <div class="color">Коричневый окрас</div>
+                                <div class="age">
+                                    3 мес
+                                    <div class="suptext">Восраст</div>
+                                </div>
+                                <div class="paws">
+                                    4
+                                    <div class="suptext">Кол-во лап</div>
+                                </div>
+                            </div>
+                            <div class="cat-price"><span class="price">20 000</span> руб.</div>
+                        </div>
+                        <div class="all-cats__box__btn">Купить</div>
+                        <div class="all-cats__box__btn-sold d-none">Продан</div>
+                    </div>
+                    <div class="all-cats__box grid-item">
+                        <div class="all-cats__box__img">
+                            <div class="discount d-none"><span>-40%</span></div>
+                            <div class="hearts">
+                                <picture><source srcset="img/heart-white.webp" type="image/webp"><img class="white" src="img/heart-white.png" alt=""></picture>
+                                <picture><source srcset="img/heart-gray.webp" type="image/webp"><img class="gray" src="img/heart-gray.png" alt=""></picture>
+                            </div>
+                            <picture><source srcset="img/cat-1.webp" type="image/webp"><img src="img/cat-1.jpg" alt=""></picture>
+                        </div>
+                        <div class="all-cats__box__about-cat">
+                            <div class="cat-name">Кот полосатый</div>
+                            <div class="cat-data">
+                                <div class="color">Коричневый окрас</div>
+                                <div class="age">
+                                    6 мес
+                                    <div class="suptext">Восраст</div>
+                                </div>
+                                <div class="paws">
+                                    4
+                                    <div class="suptext">Кол-во лап</div>
+                                </div>
+                            </div>
+                            <div class="cat-price"><span class="price">25 000</span> руб.</div>
+                        </div>
+                        <div class="all-cats__box__btn">Купить</div>
+                        <div class="all-cats__box__btn-sold d-none">Продан</div>
+                    </div>
+                    <div class="all-cats__box grid-item">
+                        <div class="all-cats__box__img">
+                            <div class="discount"><span>-40%</span></div>
+                            <div class="hearts">
+                                <picture><source srcset="img/heart-white.webp" type="image/webp"><img class="white" src="img/heart-white.png" alt=""></picture>
+                                <picture><source srcset="img/heart-gray.webp" type="image/webp"><img class="gray" src="img/heart-gray.png" alt=""></picture>
+                            </div>
+                            <picture><source srcset="img/cat-3.webp" type="image/webp"><img src="img/cat-3.jpg" alt=""></picture>
+                        </div>
+                        <div class="all-cats__box__about-cat">
+                            <div class="cat-name">Кот полосатый</div>
+                            <div class="cat-data">
+                                <div class="color">Коричневый окрас</div>
+                                <div class="age">
+                                    2 мес
+                                    <div class="suptext">Восраст</div>
+                                </div>
+                                <div class="paws">
+                                    4
+                                    <div class="suptext">Кол-во лап</div>
+                                </div>
+                            </div>
+                            <div class="cat-price"><span class="price">30 000</span> руб.</div>
+                        </div>
+                        <div class="all-cats__box__btn">Купить</div>
+                        <div class="all-cats__box__btn-sold d-none">Продан</div>
+                    </div>
+                    <div class="all-cats__box grid-item">
+                        <div class="all-cats__box__img">
+                            <div class="discount d-none"><span>-40%</span></div>
+                            <div class="hearts">
+                                <picture><source srcset="img/heart-white.webp" type="image/webp"><img class="white" src="img/heart-white.png" alt=""></picture>
+                                <picture><source srcset="img/heart-gray.webp" type="image/webp"><img class="gray" src="img/heart-gray.png" alt=""></picture>
+                            </div>
+                            <picture><source srcset="img/cat-2.webp" type="image/webp"><img src="img/cat-2.jpg" alt=""></picture>
+                        </div>
+                        <div class="all-cats__box__about-cat">
+                            <div class="cat-name">Кот полосатый</div>
+                            <div class="cat-data">
+                                <div class="color">Коричневый окрас</div>
+                                <div class="age">
+                                    3 мес
+                                    <div class="suptext">Восраст</div>
+                                </div>
+                                <div class="paws">
+                                    4
+                                    <div class="suptext">Кол-во лап</div>
+                                </div>
+                            </div>
+                            <div class="cat-price"><span class="price">10 000</span> руб.</div>
+                        </div>
+                        <div class="all-cats__box__btn d-none">Купить</div>
+                        <div class="all-cats__box__btn-sold">Продан</div>
+                    </div>
+                </div>
+
+                <div class="btn-show-more-container">
+                    <div class="btn-show-more">Показать еще 20</div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="container">
+           <div class="footer">
+                <div class="footer__texts">
+                    <div class="footer__title">Успей купить!</div>
+                    <div class="footer__suptitle">Подпишись и успей словить все акции</div>
+                </div>
+                <div class="footer__form">
+                    <form name="footerForm" action="/">
+                        <div class="error-message"></div>
+                        <input class="email" name="emailInput" type="email" placeholder="Email">
+                        <input class="submin" type="submit" placeholder="Подписаться">
+                        <div class="checkbox">
+                            <input class="check" type="checkbox">
+                            <label for="check">Подписаться на новости</label>
+                        </div>
+                    </form>
+                </div>
+           </div>
+        </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <script src="js/script.min.js"></script>
+</body>
+</html>
